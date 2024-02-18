@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: linear-gradient(to right, blue, purple); 
+    background-color: linear-gradient(to right, purple); 
     padding: 10px;
     box-shadow: 0 4px 6px 1px rgba(128,0,128,0.6);
 }
@@ -20,38 +20,39 @@ header {
     width: 60px; 
     display: flex;
     align-items: center;
+    border-radius: 50%;
 }
 .logo-text {
-    margin-left: 10px;
+    margin-left: 6px;
+    font-family: cursive;
     font-weight: bold;
-    color: plum;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(128,0,128,0.6);
 }
 
-/* Navigation styles */
-nav ul {
+nav ul  {
     list-style-type: none;
     display: flex;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
+ 
+} 
 
 nav ul li a {
+    margin-right: 20px;
     text-decoration: none;
-
+    font-family: cursive;
     color: rebeccapurple;
     font-size: 18px;
+ 
 }
 
-nav ul li a:hover {
+ nav ul li a:hover {
     color: #ff69b4; 
-}
+} 
 
 
-main, footer {
-    padding: 20px;
-}
+ main, footer {
+    padding: 10px;
+} 
 .content img{
     width: 100%;
 }
@@ -64,30 +65,31 @@ main, footer {
     position: relative;
 }
 
-.overlay-text {
+.text {
     position: absolute;
     top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
     background-color: rgba(226, 112, 198, 0.39); 
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 25px;
     text-align: center;
 }
 .services {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
+
 }
 
 .service-card {
     width: 300px;
-     background-color:rgb(241, 207, 241);
+    background-color:rgb(241, 207, 241);
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
 
 }
@@ -96,17 +98,47 @@ main, footer {
     height: auto;
     display: block;
     margin: 0 auto;
+    border-radius: 50%; 
 }
 
 
 .service-card h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(128,0,128,0.6);
+    border: 2px solid green;
 }
 
-.service-card p {
-    font-size: 16px;
+.service-card p{
+    position: relative; 
+    text-align: center;
+    top: -10px;
+
+    background-color: rgba(226, 112, 198, 0.39); 
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 12px;
 }
+footer{
+     width: 100%;
+     background: linear-gradient(-35deg,rgb(248, 4, 228) 45%, white);
+     padding: 70px; 
+    
+}
+.footerlogo img{
+    width: 60px; 
+    display: flex;
+    border-radius: 50%;
+
+}
+
+
+
+ 
+
+
 
 
 
