@@ -86,8 +86,9 @@ nav ul li a {
 
 .service-card {
     width: 300px;
+    
     background-color:rgb(241, 207, 241);
-    border: 1px solid #ddd;
+    border: 1px solid #ddd; 
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
@@ -108,7 +109,7 @@ nav ul li a {
     font-family: cursive;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(128,0,128,0.6);
-    border: 2px solid green;
+    
 }
 
 .service-card p{
@@ -124,21 +125,18 @@ nav ul li a {
 footer{
      width: 100%;
      background: linear-gradient(-35deg,rgb(248, 4, 228) 45%, white);
-     padding: 70px; 
+     padding: 80px; 
+     border-radius: 0px 100px 0 100px;
     
 }
-.footerlogo img{
-    width: 60px; 
-    display: flex;
+.footer-logo img{
+    width: 100px; 
+    display: block;
+    margin:  -60px auto 0;
     border-radius: 50%;
-
-}
-
-
-
- 
-
-
-
-
-
+}   
+.footer-text {
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center; 
+  }
