@@ -86,7 +86,6 @@ nav ul li a {
 
 .service-card {
     width: 300px;
-    
     background-color:rgb(241, 207, 241);
     border: 1px solid #ddd; 
     border-radius: 5px;
@@ -116,27 +115,103 @@ nav ul li a {
     position: relative; 
     text-align: center;
     top: -10px;
-
     background-color: rgba(226, 112, 198, 0.39); 
     padding: 10px 10px;
     border-radius: 10px;
     font-size: 12px;
 }
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #333;
+}
+
+.service-info,
+.safety-info,
+.beauticians-info,
+.trust-info {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.service-info p,
+.safety-info p,
+.beauticians-info p,
+.trust-info p {
+    line-height: 1.6;
+}
+
+ .choose img{
+    max-width: 400px;
+    height: auto; 
+    border-radius: 50%;
+}
+/* .choose h3{
+    margin-top: 50px;
+    padding-left: 30px;
+    font-family: cursive;
+}  */
+
+
 footer{
      width: 100%;
      background: linear-gradient(-35deg,rgb(248, 4, 228) 45%, white);
-     padding: 80px; 
-     border-radius: 0px 100px 0 100px;
-    
+     padding: 60px; 
+     border-radius: 0px 40%;
 }
 .footer-logo img{
     width: 100px; 
     display: block;
-    margin:  -60px auto 0;
+    margin:  -40px auto 0;
     border-radius: 50%;
 }   
 .footer-text {
     font-size: 30px;
     font-family: cursive;
     text-align: center; 
-  }
+    display: flex;
+    justify-content: center;
+}
+.icons{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.icons a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.icons a i {
+    font-size: 24px; 
+    color: black; 
+    border-radius: 50%; 
+    background-color:rgba(0, 0, 0, 0.2);
+    padding: 10px; 
+    margin: 5px;
+}
+
+ .copyrights p{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -25px;
+  font-weight: bold;
+  
+
+} 
+ 
+
+
+
+
