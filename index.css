@@ -215,29 +215,82 @@ nav ul li a {
   color: purple;
   text-shadow: 2px 4px 4px  rgb(248, 4, 228);
 }
+
 .deals-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
 }
-.deals-card{
-   width: 300px;
-   padding: 10px;
-   margin: 10px; 
-   background-color: rgb(241, 201, 101);
+
+
+.deals-card {
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(241, 201, 101);
+    border-radius: 0px 40%;
 }
+
 .deal-heading {
     font-size: 24px;
 }
 
-.deals-card img{
-    max-width: 100%;
+.deals-card img {
+    max-width: 50%;
     height: auto;
     display: block;
-    margin: 0 auto;
+    float: right; 
     border-radius: 50%;
+    margin-top: -20px;
 }
+
+.deal-details {
+    margin-top: 10px; 
+    padding-left: 10px; 
+    overflow: hidden; 
+}
+
+.deal-details ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.deal-details ul li {
+    font-size: 11px;
+    margin-bottom: 3px;
+}
+
+.deal-price {
+    margin-top: 10px;
+}  
+
+.original-price {
+    text-decoration: line-through;
+    color: red;
+    margin-right: 10px;
+}
+
+.now-price {
+    color: green;
+}
+
+.book-now-button {
+   
+    display: block;
+    margin-top: auto;
+    padding: 5px 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right; 
+       
+} 
+
+
 
 
 footer{
