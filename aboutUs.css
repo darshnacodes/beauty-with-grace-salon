@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: rgb(246, 124, 189);
+    color:black;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-radius: 40% 0px 40%;
+    text-shadow: 1px 2px 2px yellowgreen;
+    font-family: cursive;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+section.about-section {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 0 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+section.about-section h2{
+    background-color: violet;
+    padding: 1.5rem ; 
+    border-radius: 0px 40%;
+    width: calc(88% + 40px); 
+    margin: 0 auto;
+    text-align: center;
+    color: teal;
+    text-shadow: 2px 1px 1px black;
+}
+section.about-section h2 i{
+    color:#ff7f50;
+}
+footer {
+    
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(-35deg, rgb(248, 4, 228) 45%, white);
+    padding: 20px; 
+    border-radius: 0 40%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px; 
+    border-radius: 50%;
+}
+
+.footer-text {
+    font-size: 24px; 
+    font-family: cursive;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    display: inline-block;
+    padding: 5px;
+}
+
+.icons a i {
+    font-size: 24px;
+    color: black;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 5px;
+}
+
+.copyrights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.copyrights h2 {
+    margin-top: -5px; 
+}
+
+.copyrights p {
+    margin-top: -5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-logo img {
+        width: 80px;
+    }
+    .footer-text {
+        font-size: 20px;
+    }
+}
