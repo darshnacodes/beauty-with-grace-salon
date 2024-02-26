@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+header h1{
+
+    background-color: indianred;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: -5px;
+}
+
+
+.gallery-container {
+    background-image: url(assets/images/gallerybg.jpeg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item1 {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(200,9,6,);
+} 
+
+.gallery-item1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px 30%;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item1 img:hover {
+    transform: scale(1.05);
+}

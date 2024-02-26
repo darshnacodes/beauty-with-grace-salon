@@ -28,17 +28,46 @@ section.about-section {
     
 
 }
-section.about-section h2{
-    background-color: violet;
-    padding: 1.5rem ; 
-    border-radius: 0px 40%;
-    width: calc(88% + 40px); 
-    margin: 0 auto;
+.salon h2{
     text-align: center;
     color: teal;
-    text-shadow: 2px 1px 1px black;
+    text-shadow: 2px 1px 1px black;  
+    background-color: violet;
+    width: calc(91% + 40px); 
+    border-radius: 0px 40%;
+    margin: 0 auto;
+    padding: 1.5rem ;
 }
-section.about-section h2 i{
+.image img{
+    max-width: 400px;
+    height: auto; 
+    border-radius: 0px 40%;
+    margin-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+section.about-section {
+    max-width: 500px;
+    margin-top: -50%;
+    padding: 20px;
+    margin-left: auto; 
+    margin-right: 0; 
+    border-radius: 40px;
+}
+ .about-section p{
+   
+        font-size: 18px; 
+        line-height: 1.6; 
+        color:  brown; 
+        margin-bottom: 20px; 
+    } 
+    
+    .about-section p:first-child {
+        font-weight: bold; /* Make the first paragraph bold */
+    }
+
+.salon h2 i{
     color:#ff7f50;
 }
 footer {
@@ -100,6 +129,15 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+    section.about-section{
+        max-width: 100%;
+        margin-top: 0;
+    }
+    .image img {
+        max-width: 100%;
+        border-radius: 0px 40%;
+        margin-top: 10px;
+    }
     .footer-logo img {
         width: 80px;
     }
