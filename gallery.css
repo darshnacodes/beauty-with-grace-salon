@@ -7,14 +7,22 @@ body {
 header h1{
 
     background-color: indianred;
-    padding: 0.5rem;
+    padding: 0.8rem;
     text-align: center;
     margin-top: -5px;
+    border-radius: 50%;
+    
+}
+h2{
+    background-color: darkcyan;
+    text-align: center;
+    border-radius: 40%;
+    padding: 0.5rem;
 }
 
 
 .gallery-container {
-    background-image: url(assets/images/gallerybg.jpeg);
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
