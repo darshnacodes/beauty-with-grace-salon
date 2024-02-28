@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="ContactUs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-phone"></i>Contact US</h1>
+    </header>
+    <div class="container">
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="firstName"></label>
+                <input type="text" id="firstName" name="firstName" placeholder="First Name:" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName"></label>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name:" required>
+            </div>
+            <div class="form-group">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email:" required>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber"></label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number:" required>
+            </div>
+            <div class="form-group">
+                <label for="service"></label>
+                <select id="service" name="service" placeholder="Services:" required>
+                    <option value="">Select Service</option>
+                    <option value="Haircut">Haircut/style</option>
+                    <option value="Makeup">Partymakeup</option>
+                    <option value="Hairstyling">Bridal makeup</option>
+                    <option value="Hairstyling">Wax</option>
+                    <option value="Hairstyling">mani/pedi</option>
+                    <option value="Hairstyling">Mehndi</option>
+                   
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="appointmentDate">Preferred Appointment Date:</label>
+                <input type="date" id="appointmentDate" name="appointmentDate" placeholder="Preferred Appointment Date:" required>
+            </div>
+            <div class="form-group">
+                <label for="appointmentTime">Preferred Appointment Time:</label>
+                <input type="time" id="appointmentTime" name="appointmentTime" placeholder="Preferred Appointment Time" required>
+            </div>
+            <div class="form-group">
+                <label for="description"></label>
+                <textarea id="description" name="description" rows="4" placeholder="Other important details for us to know" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+</body>
+</html>

@@ -64,7 +64,7 @@ section.about-section {
     } 
     
     .about-section p:first-child {
-        font-weight: bold; /* Make the first paragraph bold */
+        font-weight: bold; 
     }
 
 .salon h2 i{
@@ -128,7 +128,7 @@ footer {
     margin-top: -5px;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     section.about-section{
         max-width: 100%;
         margin-top: 0;
