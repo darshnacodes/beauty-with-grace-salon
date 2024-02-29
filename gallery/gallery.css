@@ -5,8 +5,8 @@ body {
     background-color: #f8f8f8;
 }
  header h1{
-    background: url(assets/images/bggallery.jpeg);
-    padding: 0.8rem;
+    background: url(assets/img/bggallery.jpeg);
+    padding: 0.5rem;
     text-align: center;
     margin-top: -5px;
     border-radius: 50%;
@@ -50,42 +50,40 @@ h2{
     text-align: center;
     border-radius: 40%;
     padding: 0.5rem;
-    color: darkorange;
+    color: darkmagenta
+   
 }
 h2 i{
-    color: darkmagenta;
+    color: darkorange;
     margin: 20px;
 }
 
 
+.gallery-item1 img {
+    width: calc(100% - 20px); 
+    height: auto;
+    border-radius: 0px 20%; 
+    transition: transform 0.3s ease;
+    margin: 10px; 
+}
+
 .gallery-container {
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+    padding: 0 10px; 
 }
 
 .gallery-item1 {
-    width: 300px;
-    border-radius: 8px;
+    width: calc(300px - 5px); 
+    /* border-radius: 8px; */
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(200,9,6,);
-} 
-
-.gallery-item1 img {
-    width: 100%;
-    height: auto;
-    border-radius: 0px 30%;
-    transition: transform 0.3s ease;
-   
+    box-shadow: 0 4px 8px rgb(200, 6, 158);
 }
-
 .gallery-item1 img:hover {
     transform: scale(1.05);
 }
-
 
 
 @media  (max-width: 768px) {
