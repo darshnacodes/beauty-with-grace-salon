@@ -1,58 +1,40 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background: url(https://www.freepik.com/free-vector/purple-watercolor-background_891710.htm#fromView=search&page=1&position=0&uuid=a30ea991-16e6-4ad3-9e7f-aa84a854b373);
+  
+ 
+}
+body header img{
+  width: 100%;
+  height: 200px;
+  border-radius: 0px 30%;
+}
+h1{
+  text-align: center;
+  color:orange;
+  text-shadow: 4px 2px 4px rgb(224, 53, 144);
+  font-weight: bold;
 }
 
-.container {
+ .container {
   display: flex;
   justify-content: center;
-}
+ }
 
 .card {
-  width: 1000px;
-  height: 150px;
-  background-color: plum;
+  width: 1000%;
+  background-color: wheat;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  border: 2px solid rgb(224, 53, 144);
 }
-
-.header {
-  background-color: rgba(228, 80, 178, 0.616);
- /* background-color: rgba(216, 57, 168, 0.157); */
-  color: #000;
-  margin-top: -15px;
-  padding: -1px;
-  font-family: cursive;
-  text-shadow: 2px 4px 4px rgba(128,0,128,0.6);
+.card img{
+  padding: 10px;
+  border-radius: 30px;
 }
-
-.content {
-  display: flex;
-}
-
-.content img {
-  width: 150px;
-  height: 100%;
-  object-fit: cover;
-}
-
-.content p {
-  margin: 10px;
- font-style: italic;
-}
-
-.details {
-  margin-top: -10px;
-  margin-left: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.price,
-.rating {
-  color:black;
-
+.img h2{
+  text-align: center;
  
+  
 }
