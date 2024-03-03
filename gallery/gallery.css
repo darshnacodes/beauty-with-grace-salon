@@ -88,7 +88,7 @@ h2 i{
 }
 
 footer {
-    width: 100%;
+   position: sticky;
     background: linear-gradient(-35deg, rgb(248, 4, 228) 45%, white);
     padding: 60px; 
     border-radius: 0px 40%;

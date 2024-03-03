@@ -70,27 +70,28 @@ section.about-section {
 .salon h2 i{
     color:#ff7f50;
 }
+
 footer {
-    
-    bottom: 0;
-    width: 100%;
+   
     background: linear-gradient(-35deg, rgb(248, 4, 228) 45%, white);
-    padding: 20px; 
-    border-radius: 0 40%;
-    box-sizing: border-box;
-    text-align: center;
+    padding: 60px; 
+    border-radius: 0px 40%;
+    position: sticky;
 }
 
 .footer-logo img {
-    width: 100px;
+    width: 100px; 
     display: block;
-    margin: 0 auto 10px; 
+    margin:  -40px auto 0;
     border-radius: 50%;
-}
+}   
 
 .footer-text {
-    font-size: 24px; 
+    font-size: 30px;
     font-family: cursive;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
 }
 
 .icons {
@@ -105,28 +106,80 @@ footer {
 }
 
 .icons a i {
-    font-size: 24px;
-    color: black;
-    border-radius: 50%;
+    font-size: 24px; 
+    color: black; 
+    border-radius: 50%; 
     background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    padding: 10px; 
     margin: 5px;
 }
 
-.copyrights {
+.footer-col {
+    width: calc(100% / 3); 
+    padding: 0 15px;
+    margin: 0 20px 0 0;
+    margin-top: -15%;
+    float: left; 
+    box-sizing: border-box; 
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 700;
+    position: relative;
+   
+    font-style: italic;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+     left: 10%; 
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 70px;
+    transform: translateX(-50%);
+    text-align: center;    
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul a:hover {
+    color: black;
+    padding-left: 10px;
+    background-color: pink;
+    border-radius: 20px;
+}
+
+.copyrights{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-style: italic;
     font-weight: bold;
-}
-.copyrights h2 {
-    margin-top: -5px; 
-}
-
-.copyrights p {
-    margin-top: -5px;
-}
+    }
+    .copyrights h2 {
+        margin-top: -5px; 
+    } 
+ 
 
 @media (max-width: 768px) {
     section.about-section{

@@ -294,10 +294,11 @@ nav ul li a {
 
 
 footer {
-    width: 100%;
+   
     background: linear-gradient(-35deg, rgb(248, 4, 228) 45%, white);
     padding: 60px; 
     border-radius: 0px 40%;
+    position: sticky;
 }
 
 .footer-logo img {
@@ -351,10 +352,8 @@ footer {
     margin-bottom: 15px;
     font-weight: 700;
     position: relative;
-   
     font-style: italic;
-    
-    font-family: 'Times New Roman', Times, serif;
+     font-family: 'Times New Roman', Times, serif; 
 }
 
 .footer-col h4::before {
