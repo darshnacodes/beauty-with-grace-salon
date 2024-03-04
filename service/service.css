@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url(https://www.freepik.com/free-vector/purple-watercolor-background_891710.htm#fromView=search&page=1&position=0&uuid=a30ea991-16e6-4ad3-9e7f-aa84a854b373);
+  background: url(https://www.freepik.com/free-vector/purple-watercolor-background_891710.htm#fromView=search&page=1&position=0&uuid=b6ca1adb-d4dc-4658-a742-4b08db31d3f5);
   
  
 }
@@ -18,23 +18,84 @@ h1{
 
  .container {
   display: flex;
-  justify-content: center;
- }
+  flex-direction: column;  
+} 
 
-.card {
-  width: 1000%;
+
+ .card {
+  width: 100%; 
   background-color: wheat;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   border: 2px solid rgb(224, 53, 144);
+  position: relative;  
+  display: flex;
 }
-.card img{
-  padding: 10px;
-  border-radius: 30px;
-}
-.img h2{
-  text-align: center;
+
+.card img {
  
-  
+   padding: 10px;
+  border-radius: 30px;
+   display: block; 
+ 
+   
 }
+
+h2 {
+  text-align: center;
+  font-family: cursive;
+  position: absolute; 
+  top: 20%;
+  left: 40%; 
+  transform: translate(-50%, -50%); 
+  margin-top: 0; 
+}
+.desc{
+  
+  font-family: cursive;
+  position: absolute; 
+  top: 50%;
+  left: 55%; 
+  transform: translate(-50%, -50%); 
+  margin-top: 0; 
+}
+.price{
+  font-family: cursive;
+  position: absolute; 
+  top: 80%;
+  left: 40%; 
+  transform: translate(-50%, -50%); 
+  margin-top: 0;
+}
+.rating{
+  font-family: cursive;
+  position: absolute; 
+  top: 80%;
+  left: 85%; 
+   transform: translate(-50%, -50%);  
+  margin-top: 0;
+}
+.fa-solid.fa-heart:nth-child(1) {
+  color: red; 
+}
+
+.fa-solid.fa-heart:nth-child(2) {
+  color: blue; 
+}
+
+.fa-solid.fa-heart:nth-child(3) {
+  color: green; 
+}
+
+.fa-solid.fa-heart:nth-child(4) {
+  color: orange; 
+}
+
+.fa-solid.fa-heart:nth-child(5) {
+  color: purple; 
+}
+
+
+
+ 
