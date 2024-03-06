@@ -8,8 +8,8 @@ body {
   }
   h1{
     text-align: center;
-    color:orange;
-    text-shadow: 4px 2px 4px rgb(224, 53, 144);
+    color:#2e6848;
+    text-shadow: 2px 2px 4px #88cca6;
     font-weight: bold;
   }
   
@@ -21,7 +21,7 @@ body {
   
    .card {
     width: 100%; 
-    background-color: wheat;
+    background-color:#8bc0a3;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -47,6 +47,7 @@ body {
     transform: translate(-50%, -50%); 
     margin-top: 0; 
   }
+
   
   .desc{
     
@@ -92,8 +93,4 @@ body {
   .fa-solid.fa-heart:nth-child(5) {
     color: purple; 
   }
-  
-  
-  
-   
   
