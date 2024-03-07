@@ -8,8 +8,8 @@ body {
   }
   h1{
     text-align: center;
-    color:#2e6848;
-    text-shadow: 2px 2px 4px #88cca6;
+    color:black;
+    text-shadow: 2px 2px 4px rgb(168, 118, 25);
     font-weight: bold;
  
   }
@@ -22,7 +22,7 @@ body {
   
    .card {
     width: 100%; 
-    background-color:#9fd6b8;
+    background-color:rgb(250, 198, 102);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
