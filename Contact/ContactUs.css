@@ -66,11 +66,12 @@ select,
 textarea {
     width: 50%;
     padding: 15px;
-    border: 1px solid purple;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
+    background-color: #dbb1aa;
+    border: 4px solid #bb7c91;
    
 
 }
@@ -80,6 +81,9 @@ select{
     width:40%;
     padding: 15px;
     font-size: 15px;
+    background-color: #dbb1aa;
+    border: 4px solid #bb7c91;
+   
 }
 select{
     border-radius: 8px;
