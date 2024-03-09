@@ -5,8 +5,10 @@ body {
     width: 100%;
     height: 200px;
     border-radius: 0px 30%;
+    border: 4px solid purple;
   }
   h1{
+   font-family: cursive;
     text-align: center;
     color:#2e6848;
     text-shadow: 4px 2px 4px rgb(224, 53, 144);
@@ -70,7 +72,7 @@ body {
     position: absolute; 
     top: 80%;
     left: 85%; 
-     transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);  
     margin-top: 0;
   }
   .fa-solid.fa-heart:nth-child(1) {
