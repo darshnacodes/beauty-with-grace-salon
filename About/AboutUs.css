@@ -179,7 +179,39 @@ footer {
     .copyrights h2 {
         margin-top: -5px; 
     } 
- 
+
+@media only screen and (max-width: 768px) {
+        .footer {
+            padding: 40px;
+        }
+    
+        .footer-text {
+            font-size: 24px;
+        }
+    
+        .icons a i {
+            font-size: 20px;
+            padding: 8px;
+        }
+    
+        .footer-col {
+            width: 100%;
+            margin: 0;
+           
+        }
+    
+        .footer-col h4::before {
+            width: 50px;
+        }
+    
+        .footer-col ul a {
+            font-size: 14px;
+        }
+        .copyrights {
+            font-size: 14px; 
+        }
+    }
+
 
 @media (max-width: 768px) {
     section.about-section{
