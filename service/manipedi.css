@@ -26,14 +26,13 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     border: 2px solid rgb(224, 53, 144);
-    position: relative;  
+    position: relative;
     display: flex;
   }
   
   .card img {
-   
      padding: 10px;
-    border-radius: 30px;
+     border-radius: 30px;
      display: block; 
    
   }
@@ -70,10 +69,10 @@ body {
   }
   .rating{
     font-family: cursive;
-    position: absolute; 
+    position: absolute;  
     top: 80%;
     left: 85%; 
-     transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);  
     margin-top: 0;
   }
   .fa-solid.fa-heart:nth-child(1) {

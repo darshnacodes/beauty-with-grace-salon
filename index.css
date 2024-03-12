@@ -425,15 +425,9 @@ footer {
             font-size: 14px;
         }
         .copyrights {
-            font-size: 14px; 
+            font-size: 10px; 
         }
     }
-
-
- 
-
-
-
 
 @media  (max-width: 768px) {
     header {
@@ -445,7 +439,8 @@ footer {
     }
     
     nav ul li a {
-        font-size: 13px; 
+        font-size: 10px; 
+        
     }
     
     .content .text {

@@ -9,9 +9,15 @@ body header img{
 }
 h1{
   text-align: center;
-  color:#da3487;
-  text-shadow: 2px 2px 4px orange;
+  color:#da3487; 
+  margin-top: 5px;
+  
+  /* text-shadow: 2px 2px 4px purple; */
   font-weight: bold;
+  font-family: cursive;
+  background-color: lightpink;
+  border-radius: 0px 40%;
+  border: 2px solid purple;
 
 }
 .services {
@@ -28,7 +34,10 @@ h1{
   border: 2px solid purple; 
   border-radius: 5px;
   padding: 8px;
+  
   margin: 10px;
+  margin-top: -5%;
+  
 
 }
 .service-card img {
@@ -167,7 +176,7 @@ footer {
   .copyrights h2 {
       margin-top: -5px; 
   } 
-  @media only screen and (max-width: 768px) {
+  @media  (max-width: 768px) {
     .footer {
         padding: 40px;
     }
@@ -195,7 +204,7 @@ footer {
         font-size: 14px;
     }
     .copyrights {
-        font-size: 12px; 
+        font-size: 10px; 
     }
 }
 
