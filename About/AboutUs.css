@@ -9,10 +9,11 @@ header {
     background-color: rgb(246, 124, 189);
     color:black;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 1rem ;
     border-radius: 40% 0px 40%;
     text-shadow: 1px 2px 2px yellowgreen;
     font-family: cursive;
+    max-width:100%;
 }
 
 header h1 {
@@ -33,7 +34,7 @@ section.about-section {
     color: teal;
     text-shadow: 2px 1px 1px black;  
     background-color: violet;
-    width: calc(91% + 40px); 
+    max-width:100%; 
     border-radius: 0px 40%;
     margin: 0 auto;
     padding: 1.5rem ;
@@ -41,9 +42,10 @@ section.about-section {
 .image img{
     max-width: 400px;
     height: auto; 
+    border: 2px solid purple;
     border-radius: 0px 40%;
     margin-top: 20px;
-    padding-left: 10px;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -54,6 +56,8 @@ section.about-section {
     margin-left: auto; 
     margin-right: 0; 
     border-radius: 40px;
+    background-color: whitesmoke;
+    border: 2px solid purple;
 }
  .about-section p{
    
@@ -63,7 +67,7 @@ section.about-section {
         margin-bottom: 20px; 
     } 
     
-    .about-section p:first-child {
+.about-section p:first-child {
         font-weight: bold; 
     }
 
@@ -180,7 +184,7 @@ footer {
         margin-top: -5px; 
     } 
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
         .footer {
             padding: 40px;
         }
@@ -208,12 +212,18 @@ footer {
             font-size: 14px;
         }
         .copyrights {
-            font-size: 14px; 
+            font-size: 11px; 
         }
     }
 
 
 @media (max-width: 768px) {
+    .salon h2{
+        font-size: 18px;
+    }
+    .image img{
+
+    }
     section.about-section{
         max-width: 100%;
         margin-top: 0;
