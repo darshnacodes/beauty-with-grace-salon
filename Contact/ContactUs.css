@@ -28,11 +28,11 @@ h1 {
 
 .container {
     
-    width: 96%;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
    
-    background: url(https://images.unsplash.com/photo-1708583382060-5bcfebc34a69?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2M3x8fGVufDB8fHx8fA%3D%3D); 
+    background: url(Assets/img/contactusbg.jpg); 
     background-size: cover;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -46,7 +46,7 @@ form{
 
 .form-group {
     margin: 0 auto 20px; 
-    width: 90%;
+    width: 100%;
     
    
 }
