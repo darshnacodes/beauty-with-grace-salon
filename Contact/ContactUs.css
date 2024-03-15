@@ -31,8 +31,8 @@ h1 {
     width: 96%;
     margin: 0 auto;
     padding: 20px;
-    /* background-color:#be6c87; */
-    background: url(Assets/img/contactusbg.jpg) ; 
+   
+    background: url(Assets/img/contactusbg.jpg); 
     background-size: cover;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -112,12 +112,12 @@ input[type="email"],
 input[type="tel"],
 select,
 textarea{
-    width: 100%;
+    width: 120%;
 }
 input[type="time"],
 input[type="date"],
 select{
-    width: 100%;
+    width: 120%;
 }
 }
 
