@@ -80,6 +80,7 @@ input[type="date"],
 select{
     width:40%;
     padding: 15px;
+    border-radius: 4px;
     font-size: 15px;
     background-color: #dbb1aa;
     border: 4px solid #bb7c91;
@@ -104,6 +105,20 @@ button {
 
 button:hover {
     background-color: #bb7c91;
+}
+@media (max-width: 768px){
+    input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea{
+    width: 100%;
+}
+input[type="time"],
+input[type="date"],
+select{
+    width: 100%;
+}
 }
 
 
