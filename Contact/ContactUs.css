@@ -1,124 +1,110 @@
 body {
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0;
 }
 
-
 h1 {
-     font-family: cursive;
-    color: #333; 
-    padding: 5px;
-    text-align: center;
-    border-radius: 0px 40%;
-    font-size: 40px;
+  font-family: cursive;
+  color: #333;
+  padding: 5px;
+  text-align: center;
+  border-radius: 0px 40%;
+  font-size: 40px;
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
- h1 i{
-    animation: fadeIn 1s ease-in-out forwards infinite;
+h1 i {
+  animation: fadeIn 1s ease-in-out forwards infinite;
 }
 
 .container {
-    
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-   
-    background: url(Assets/img/contactusbg.jpg); 
-    background-size: cover;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-form{
-    text-align: center;
-    
-}
- 
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
 
+  background: url(Assets/img/contactusbg.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+  text-align: center;
+}
 
 .form-group {
-    margin: 0 auto 20px; 
-    width: 100%;
-    
-   
+  margin: 0 auto 20px;
+  width: 100%;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    font-size: 20px;
- 
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
+input[type='text'],
+input[type='email'],
+input[type='tel'],
 select,
 textarea {
-    width: 50%;
-    padding: 15px;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #dbb1aa;
-    border: 4px solid #bb7c91;
-   
-
+  width: 50%;
+  padding: 15px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #dbb1aa;
+  border: 4px solid #bb7c91;
 }
-input[type="time"],
-input[type="date"],
-select{
-    width:40%;
-    padding: 15px;
-    border-radius: 4px;
-    font-size: 15px;
-    background-color: #dbb1aa;
-    border: 4px solid #bb7c91;
-   
+input[type='time'],
+input[type='date'],
+select {
+  width: 50%;
+  padding: 15px;
+  border-radius: 4px;
+  color: #333;
+  font-size: 15px;
+  background-color: #dbb1aa;
+  border: 4px solid #bb7c91;
 }
-select{
-    border-radius: 8px;
+select {
+  border-radius: 8px;
 }
-
 
 button {
-    display: block;
-   
-    padding: 10px;
-    background-color: #d3898e;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+  display: block;
+
+  padding: 10px;
+  background-color: #d3898e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 button:hover {
-    background-color: #bb7c91;
+  background-color: #bb7c91;
 }
-@media (max-width: 768px){
-    input[type="text"],
-input[type="email"],
-input[type="tel"],
-select,
-textarea{
-    width: 110%;
+@media (max-width: 768px) {
+  input[type='text'],
+  input[type='email'],
+  input[type='tel'],
+  select,
+  textarea {
+    width: 90%;
+  }
+  input[type='time'],
+  input[type='date'],
+  select {
+    width: 90%;
+  }
 }
-input[type="time"],
-input[type="date"],
-select{
-    width: 110%;
-}
-}
-
-
