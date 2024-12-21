@@ -8,10 +8,10 @@ body header img {
   border-radius: 0px 30%;
 }
 #welcome-message {
-  display: none; /* शुरू में hidden रहेगा */
-  font-size: 24px;
+  display: none; 
+  font-size: 30px;
   font-weight: bold;
-  color: #ff69b4; /* आप अपने अनुसार रंग चुन सकती हैं */
+  color: rgb(134, 4, 69); 
   text-align: center;
   margin-top: 20px;
 }

@@ -120,14 +120,14 @@ nav ul li a {
     border-radius: 10px;
     font-size: 12px;
 }
-.service-card button{
+/* .service-card button{
     cursor: pointer;
     color: beige;
     padding: 10px;
     background-color: #ff1493;
     border: 20px;
     border-radius: 20px;
-}
+} */
 .container {
     max-width: 500px;
     margin-top: -30%;
