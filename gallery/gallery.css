@@ -67,6 +67,7 @@ h2 i{
     border-radius: 0px 20%; 
     transition: transform 0.3s ease;
     margin: 10px; 
+    object-fit: cover;
 }
 
 .gallery-container {
@@ -168,7 +169,7 @@ footer {
 }
 
 .footer-col ul a {
-    font-size: 16px;
+    font-size: 15px;
     color: black;
     text-decoration: none;
     text-align: center;
@@ -191,6 +192,9 @@ footer {
     font-weight: bold;
     }
     .copyrights h2 {
+        margin-top: -5px; 
+    }
+    .copyrights p {
         margin-top: -5px; 
     }
 

@@ -1,11 +1,22 @@
 body {
   font-family: Arial, sans-serif;
+  background-color:rgb(240, 205, 160);
 }
 body header img {
   width: 100%;
   height: 200px;
   border-radius: 0px 30%;
 }
+#welcome-message {
+  display: none; /* शुरू में hidden रहेगा */
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff69b4; /* आप अपने अनुसार रंग चुन सकती हैं */
+  text-align: center;
+  margin-top: 20px;
+}
+
+
 h1 {
   font-family: cursive;
   text-align: center;
@@ -18,6 +29,28 @@ h1 {
   border: 2px solid rgb(224, 53, 144);
 }
 
+.button-link {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 30px;
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.button-link:hover {
+color: #ffcc00;
+}
+
+
+h3{
+  color: #2e6848;
+  font-style: italic;
+  margin: 20px;
+  cursor: pointer;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -73,7 +106,19 @@ h2 {
 .wrapper {
   margin: 0 16px;
 }
-.fa-solid.fa-heart:nth-child(1) {
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ccc; /* Default color */
+  transition: color 0.2s ease-in-out;
+}
+
+.star:hover,
+.star.selected {
+  color: #ffcc00; /* Highlight color */
+}
+
+/* .fa-solid.fa-heart:nth-child(1) {
   color: red;
 }
 
@@ -91,7 +136,7 @@ h2 {
 
 .fa-solid.fa-heart:nth-child(5) {
   color: purple;
-}
+} */
 
 @media (max-width: 768px) {
   .card {
