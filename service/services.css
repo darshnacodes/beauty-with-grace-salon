@@ -106,6 +106,7 @@ h2 {
 .wrapper {
   margin: 0 16px;
 }
+
 .star {
   font-size: 24px;
   cursor: pointer;
@@ -115,28 +116,8 @@ h2 {
 
 .star:hover,
 .star.selected {
-  color: #ffcc00; /* Highlight color */
+  color: #ffcc00; /* Highlight color for selected stars */
 }
-
-/* .fa-solid.fa-heart:nth-child(1) {
-  color: red;
-}
-
-.fa-solid.fa-heart:nth-child(2) {
-  color: blue;
-}
-
-.fa-solid.fa-heart:nth-child(3) {
-  color: green;
-}
-
-.fa-solid.fa-heart:nth-child(4) {
-  color: orange;
-}
-
-.fa-solid.fa-heart:nth-child(5) {
-  color: purple;
-} */
 
 @media (max-width: 768px) {
   .card {
@@ -148,9 +129,7 @@ h2 {
     height: 100%;
     margin: 0 auto;
   }
-  .wrapper {
-    margin: 8px 16px;
-  }
+  
 }
 
 @media (max-width: 450px) {
@@ -159,4 +138,5 @@ h2 {
     height: 100%;
     margin: 0 auto;
   }
+
 }
